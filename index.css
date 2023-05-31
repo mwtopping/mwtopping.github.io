@@ -73,6 +73,13 @@
     padding-left:20px;
     padding-right:20px;
     padding-top:64px;
+    background-image: url("clusterevolution.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:1000px;
+
+
 }
 
 .aboutme h2 {
