@@ -1,0 +1,179 @@
+/* General CSS */
+
+.container {
+	width:960px;
+}
+
+
+
+/* Navigation Bar */
+
+.navigation {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid #dddddd;
+	height: 80px;
+	font-family: "futura-bold", sans-serif;
+	font-size: 20px;
+	
+	padding:5px;
+	
+}
+
+.navigation .name-panel {
+	font-size: 24px;
+	
+	
+}
+
+.navigation .name-panel {
+	color:#555555;
+}
+
+.navigation .home-menu {
+	float:left;
+	list-style: none;
+ 	margin-top: 5px; 
+}
+
+.home-menu > li {
+	display: inline;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.name-panel a {
+	color: #555555;
+}
+
+.navigation .menu {
+	float:right;
+	list-style: none;
+	margin-top: 5px;
+}
+
+.navigation .container {
+	display:inline;
+}
+
+.menu > li {
+	display: inline;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.menu a {
+	color: #888888;
+}
+
+
+
+
+/* About me content */
+.aboutme {
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:64px;
+}
+
+.aboutme h2 {
+    text-align:center;
+    text-decoration:underline;
+    color: #555555;
+}
+
+.aboutme h3 {
+    text-align:center;
+
+    color: #666666;
+}
+
+.aboutme p {
+    text-align:center;
+    color: #555555;
+}
+
+
+
+/* Carousel */
+
+.slide-header h2 {
+	height: 20px;
+	text-align:center;
+	text-decoration:underline;
+	color: #555555;
+}
+
+.slider {
+	position:relative;
+	width:100%;
+	height: 490px;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+.slide {
+  	background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  	background-size: cover;
+	display: none;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+}
+
+.active-slide {
+	display: block;
+}
+
+.slide-feature {
+	padding-top:20px;
+}
+
+.slide-img img {
+	max-width:100%;
+	padding-top:20px
+}
+
+
+
+
+/* Slider navigation */
+.slide-nav {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.arrow-left {
+	margin-right:45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+.arrow-right {
+	margin-left:45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+.slider-dots {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+
+.slider-dots li {
+	color: #bbbcbc;
+	display: inline;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}

@@ -1,0 +1,70 @@
+/* 
+Color Scheme
+#ffffff
+#c7c7c7
+#686868
+#141311
+ */
+
+
+/* Body styles */
+body {
+	background-color:#141311;
+}
+
+
+/* Navigation Styles */
+.navigation {
+	background-color:#3f3f3f;
+	padding-top:10px;
+	padding-left:-100px;
+	margin:10px;
+	margin-top:10px;
+}
+
+.navigation a {
+	color: #c7c7c7;
+	font-weight: bold;
+	padding-right:30px;
+	text-transform: uppercase;
+}
+
+.navigation li {
+	display: inline;
+	background-color:3f3f3f;
+
+}
+
+
+
+/* Recent Posts Styles */
+.recent {
+	background-color: #3f3f3f;
+
+	height: 150px;
+}
+
+.recent h3 {
+	color:#c7c7c7;
+}
+
+.recent p {
+	color:#c7c7c7;
+}
+
+.recent-prog {
+	height:150px;
+	background-image: url("./media/code.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	border: 1px solid #3f3f3f;
+
+}
+
+.recent-blog {
+	height:150px;
+	background-image: url("./media/text.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	border: 1px solid #3f3f3f;
+}

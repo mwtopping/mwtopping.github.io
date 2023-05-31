@@ -1,0 +1,44 @@
+.jumbotron {
+	height: 100px;
+	background-color:#3f3f3f;
+/* 
+	background-image:url("media/m45.png");
+	background-size:cover;
+	background-position:center;
+ */
+	border: 1px solid #3f3f3f;
+}
+
+.jumbotron h1 {
+	color: #c7c7c7;
+	position:fixed;
+	top:55px;
+}
+
+
+/* contains the content */
+.recent-box {
+	background-color:#3f3f3f;
+	height:200px
+}
+
+
+/* contains the entire box array */
+.recent-blogs {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* preview is a class that the columns belong to */
+.preview {
+	height:220px;
+}
+
+.preview h3 {
+	color:#c7c7c7;
+}
+
+.preview p {
+	color:#c7c7c7;
+}
